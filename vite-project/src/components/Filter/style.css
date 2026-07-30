@@ -1,0 +1,13 @@
+.continer-filter {
+    position: fixed;
+    top: 95px;
+    left: 25px;
+    bottom: 10px;
+    width: 300px;
+    padding: 30px ;
+    background-color: white;
+    border: 1px solid rgb(188, 188, 188);
+    box-shadow: 1px 1px 5px rgb(227, 227, 227);
+    z-index: 999;
+    border-radius: 8px;
+}

@@ -1,0 +1,61 @@
+.header-continer{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 5px 10px rgb(222, 222, 222);
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 20px 30px;
+
+}
+.number-cart{
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;
+    padding: 0px 4px;
+    font-size: 10px;
+}
+
+
+.user-name{
+    position: absolute;
+    bottom: 17px;
+    right: 60px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 4px;
+    padding: 0 4px;
+    color: rgb(150, 150, 150);
+    display: none;
+}
+.user:hover + .user-name {
+    display: block;
+
+}
+
+
+.logOut{
+    position: absolute;
+    white-space: nowrap;
+    right: -15px;
+    top: 30px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 4px;
+    padding: 0 4px;
+    color: rgb(150, 150, 150);
+    display: none;
+}
+
+.logo-logout:hover + .logOut {
+    display: block;
+
+}
