@@ -41,6 +41,7 @@ However, inside the cart page the **actual quantity of each product** is display
 
 ## Installation
 ```bash
+cd Shop-site-main
 cd vite-project
 npm install
 npm run dev
